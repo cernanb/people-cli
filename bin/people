@@ -1,0 +1,6 @@
+require 'pry'
+
+require_relative '../lib/cli'
+require_relative '../lib/person'
+
+CLI.new.run
